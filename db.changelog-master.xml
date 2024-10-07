@@ -14,7 +14,20 @@
         <sqlFile path="sql/add_column.sql" />
     </changeSet>
 
-    
+    <!-- ChangeSet 4: Insert initial data -->
+    <changeSet id="4" author="venatrix">
+        <sqlFile path="sql/insert_data.sql" />
+    </changeSet>
+
+    <!-- ChangeSet 5: Update existing records -->
+    <changeSet id="5" author="sadjith">
+        <sqlFile path="sql/update_records.sql" />
+    </changeSet>
+
+    <!-- ChangeSet 6: Drop a column from a table -->
+    <changeSet id="6" author="sadjith">
+        <sqlFile path="sql/drop_column.sql" />
+    </changeSet>
 
 
 </databaseChangeLog>
