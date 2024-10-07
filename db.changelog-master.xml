@@ -14,10 +14,6 @@
         <sqlFile path="sql/add_column.sql" />
     </changeSet>
 
-    <!-- ChangeSet 3: Insert data after the table is created -->
-    <changeSet id="3" author="SADJITH">
-        <sqlFile path="sql/insert_data.sql" />
-    </changeSet>
     
 
 
