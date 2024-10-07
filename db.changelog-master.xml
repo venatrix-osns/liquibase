@@ -5,27 +5,27 @@
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
     <!-- ChangeSet 1: Create a table -->
-    <changeSet id="1" author="your-name">
+    <changeSet id="1" author="venatrix">
         <sqlFile path="sql/create_table.sql" />
     </changeSet>
 
     <!-- ChangeSet 2: Add a column to an existing table -->
-    <changeSet id="2" author="your-name">
+    <changeSet id="2" author="vanatrix">
         <sqlFile path="sql/add_column.sql" />
     </changeSet>
 
     <!-- ChangeSet 3: Insert initial data -->
-    <changeSet id="3" author="your-name">
+    <changeSet id="3" author="venatrix">
         <sqlFile path="sql/insert_data.sql" />
     </changeSet>
 
     <!-- ChangeSet 4: Update existing records -->
-    <changeSet id="4" author="your-name">
+    <changeSet id="4" author="sadjith">
         <sqlFile path="sql/update_records.sql" />
     </changeSet>
 
     <!-- ChangeSet 5: Drop a column from a table -->
-    <changeSet id="5" author="your-name">
+    <changeSet id="5" author="sadjith">
         <sqlFile path="sql/drop_column.sql" />
     </changeSet>
 
