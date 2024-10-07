@@ -1,2 +1,1 @@
-ALTER TABLE example_table
-ADD COLUMN age INT;
+ALTER TABLE example_table ADD COLUMN age INT;
