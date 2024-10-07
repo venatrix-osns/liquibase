@@ -1,0 +1,10 @@
+# Ignore any temporary files or build artifacts
+*.log
+*.tmp
+*.class
+*.jar
+*.war
+target/
+node_modules/
+.DS_Store
+
