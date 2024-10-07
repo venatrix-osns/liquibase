@@ -1,24 +1,32 @@
-
-<?xml version="1.0" encoding="UTF-8"?>
 <databaseChangeLog
     xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
-    <changeSet id="2" author="venatrix">
-        <createTable tableName="customeridnet22332">
-            <column name="id" type="INT">
-                <constraints primaryKey="true" nullable="false"/>
-            </column>
-            <column name="first_name" type="VARCHAR(100)">
-                <constraints nullable="false"/>
-            </column>
-            <column name="last_name" type="VARCHAR(100)">
-                <constraints nullable="false"/>
-            </column>
-        </createTable>        
+    <!-- ChangeSet 1: Create a table -->
+    <changeSet id="1" author="your-name">
+        <sqlFile path="sql/create_table.sql" />
     </changeSet>
-    <!-- Add more changeSets as needed -->
+
+    <!-- ChangeSet 2: Add a column to an existing table -->
+    <changeSet id="2" author="your-name">
+        <sqlFile path="sql/add_column.sql" />
+    </changeSet>
+
+    <!-- ChangeSet 3: Insert initial data -->
+    <changeSet id="3" author="your-name">
+        <sqlFile path="sql/insert_data.sql" />
+    </changeSet>
+
+    <!-- ChangeSet 4: Update existing records -->
+    <changeSet id="4" author="your-name">
+        <sqlFile path="sql/update_records.sql" />
+    </changeSet>
+
+    <!-- ChangeSet 5: Drop a column from a table -->
+    <changeSet id="5" author="your-name">
+        <sqlFile path="sql/drop_column.sql" />
+    </changeSet>
 
 </databaseChangeLog>
