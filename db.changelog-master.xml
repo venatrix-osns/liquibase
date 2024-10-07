@@ -19,5 +19,10 @@
         <sqlFile path="sql/insert_data.sql" />
     </changeSet>
 
+    <!-- ChangeSet 4: Update existing records -->
+    <changeSet id="4" author="sadjith">
+        <sqlFile path="sql/update_records.sql" />
+    </changeSet>
+
 
 </databaseChangeLog>
