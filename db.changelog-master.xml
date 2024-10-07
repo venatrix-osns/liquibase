@@ -5,7 +5,7 @@
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
     <!-- ChangeSet 1: Create the table -->
-    <changeSet id="1" author="your-name">
+    <changeSet id="1" author="VENATRIX">
         <sqlFile path="sql/create_table.sql" />
     </changeSet>
 
