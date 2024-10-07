@@ -1,0 +1,34 @@
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <!-- ChangeSet 1: Create the table -->
+    <changeSet id="1" author="your-name">
+        <sql>
+            CREATE TABLE example_table (
+                id INT PRIMARY KEY,
+                name VARCHAR(255)
+            );
+        </sql>
+    </changeSet>
+
+    <!-- ChangeSet 2: Add the age column -->
+    <changeSet id="2" author="your-name">
+        <sql>
+            ALTER TABLE example_table
+            ADD COLUMN age INT;
+        </sql>
+    </changeSet>
+
+    <!-- ChangeSet 3: Insert data into the table, including the age column -->
+    <changeSet id="3" author="your-name">
+        <sql>
+            INSERT INTO example_table (id, name, age)
+            VALUES (1, 'Alice', 30),
+                   (2, 'Bob', 25);
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>
