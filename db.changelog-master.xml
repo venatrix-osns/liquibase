@@ -16,7 +16,7 @@
 
     <!-- ChangeSet 3: Insert Data -->
     <changeSet id="3" author="sadjith">
-        <sqlFile path="sql/nsert_data.sql" />
+        <sqlFile path="sql/insert_data.sql" />
     </changeSet>
     
     <!-- ChangeSet 4: Update existing records -->
