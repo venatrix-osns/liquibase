@@ -14,7 +14,7 @@
         <sqlFile path="sql/add_column.sql" />
     </changeSet>
 
-    <!-- ChangeSet 3: Update existing records -->
+    <!-- ChangeSet 3: Update records -->
     <changeSet id="3" author="sadjith">
         <sqlFile path="sql/create_table.sql" />
     </changeSet>
