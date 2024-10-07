@@ -4,14 +4,14 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
-    <!-- ChangeSet 1: Create a table -->
-    <changeSet id="1" author="venatrix">
+    <!-- ChangeSet 1: Create the table -->
+    <changeSet id="1" author="your-name">
         <sqlFile path="sql/create_table.sql" />
     </changeSet>
 
-    <!-- ChangeSet 2: Add a column to an existing table -->
-    <changeSet id="2" author="vanatrix">
-        <sqlFile path="sql/add_column.sql" />
+    <!-- ChangeSet 2: Insert data after the table is created -->
+    <changeSet id="2" author="your-name">
+        <sqlFile path="sql/insert_data.sql" />
     </changeSet>
 
     <!-- ChangeSet 3: Insert initial data -->
