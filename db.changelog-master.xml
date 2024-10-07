@@ -9,8 +9,13 @@
         <sqlFile path="sql/create_table.sql" />
     </changeSet>
 
-    <!-- ChangeSet 2: Insert data after the table is created -->
+        <!-- ChangeSet 2: Insert Column after the table is created -->
     <changeSet id="2" author="SADJITH">
+        <sqlFile path="sql/add_column.sql" />
+    </changeSet>
+
+    <!-- ChangeSet 3: Insert data after the table is created -->
+    <changeSet id="3" author="SADJITH">
         <sqlFile path="sql/insert_data.sql" />
     </changeSet>
     
