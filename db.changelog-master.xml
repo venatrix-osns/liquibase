@@ -9,11 +9,11 @@
         <sqlFile path="sql/create_table.sql" />
     </changeSet>
 
-<changeSet id="2a" author="SADJITH">
-    <sql>
-        ALTER TABLE example_table ADD COLUMN age INT;
-    </sql>
-</changeSet>
+    <!-- ChangeSet 2: Create the table -->
+    <changeSet id="2" author="VENATRIX">
+        <sqlFile path="sql/add_column.sqll" />
+    </changeSet>
+
 
 
 
