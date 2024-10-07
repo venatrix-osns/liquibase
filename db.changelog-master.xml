@@ -14,7 +14,10 @@
         <sqlFile path="sql/add_column.sql" />
     </changeSet>
 
-
+    <!-- ChangeSet 3: Insert initial data -->
+    <changeSet id="3" author="venatrix">
+        <sqlFile path="sql/insert_data.sql" />
+    </changeSet>
 
 
 
