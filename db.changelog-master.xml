@@ -9,7 +9,7 @@
         <sqlFile path="sql/create_table.sql" />
     </changeSet>
 
-    <!-- ChangeSet 2: Crete coloumn -->
+    <!-- ChangeSet 2: Create coloumn -->
     <changeSet id="2" author="VENATRIX">
         <sqlFile path="sql/add_column.sql" />
     </changeSet>
