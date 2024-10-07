@@ -11,7 +11,7 @@
 
     <!-- ChangeSet 2: Create the table -->
     <changeSet id="2" author="VENATRIX">
-        <sqlFile path="sql/add_column.sqll" />
+        <sqlFile path="sql/add_column.sql" />
     </changeSet>
 
 
