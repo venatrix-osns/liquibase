@@ -19,15 +19,6 @@
         <sqlFile path="sql/insert_data.sql" />
     </changeSet>
 
-    <!-- ChangeSet 4: Update existing records -->
-    <changeSet id="4" author="sadjith">
-        <sqlFile path="sql/update_records.sql" />
-    </changeSet>
-
-    <!-- ChangeSet 5: Drop a column from a table -->
-    <changeSet id="5" author="sadjith">
-        <sqlFile path="sql/drop_column.sql" />
-    </changeSet>
 
 
 </databaseChangeLog>
