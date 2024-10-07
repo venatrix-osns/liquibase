@@ -14,11 +14,13 @@
         <sqlFile path="sql/add_column.sql" />
     </changeSet>
 
-    <!-- ChangeSet 3: Insert Data -->
-    <changeSet id="3" author="sadjith">
-        <sqlFile path="sql/insert_data.sql" />
-    </changeSet>
-
+    <changeSet id="3" author="your-name" runAlways="true">
+    <sql>
+        INSERT INTO example_table (id, name, age)
+        VALUES (1, 'Alice', 30),
+               (2, 'Bob', 25);
+    </sql>
+</changeSet>
     <!-- ChangeSet 4: Update existing records -->
     <changeSet id="4" author="sadjith">
         <sqlFile path="sql/update_records.sql" />
